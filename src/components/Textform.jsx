@@ -84,7 +84,7 @@ function Textform(props) {
           </button>
           <button
             className="btn btn-primary my-4 mx-3"
-            onClick={handleOriginal} disabled={text.length === 0 || text === Original}
+            onClick={handleOriginal} disabled={ text === Original}
           >
             Original Text
           </button>
